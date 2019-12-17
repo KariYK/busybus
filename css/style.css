@@ -1,0 +1,169 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 2em;
+  font-size: 16px;
+  margin: 0 auto;
+  width:375px;
+}
+
+header {
+  background-color: #ffffff;
+  width:100%;
+}
+
+nav{
+  padding: 16px;
+}
+
+.back {
+  display: inline-block;
+}
+
+.status-bar {
+  background-image: url(../images/top-bar.svg);
+  width: 100%;
+  height: 20px;
+  background-size: cover;
+}
+
+.route-list-option {
+  border: 2px solid #dfecec;
+}
+
+.bus-map {
+  background-image: url(../images/busybus-map.svg);
+  background-size: cover;
+  height: 300px;
+  width: 375px;
+}
+
+.bus-stop {
+  height: 45px;
+  width: 35px;
+  margin: 25% 0% 0% 35%;
+}
+
+section {
+  margin: 0;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+h2 {
+  background-color: #b3b3b3;
+  color: #ffffff;
+  font-size: 1.8em;
+  padding: 2% 0% 2% 0%;
+  text-align: center;
+}
+
+h3 {
+  float: left;
+  font-size: 1.8em;
+}
+
+h4 {
+  float: left;
+  font-size: 1em;
+}
+
+li {
+  display: inline-block;
+  width: 100%;
+}
+
+.bus-list {
+  background-color: #ffffff;
+  height: 510px;
+  overflow-y: scroll;
+}
+
+.direction {
+  border-width: 0px 0px 1.25px 0px;
+  border-color: gray;
+  border-style:  solid;
+  clear: both;
+  padding: 3%;
+  display:flex;
+  align-items: center;
+}
+
+.number {
+  display: inline-block;
+  padding-left: 2%;
+  width: 15%;
+}
+
+.route {
+  font-weight: 300;
+  padding: 0% 2% 0% 4%;
+  width: 35%;
+}
+
+.arrival-time {
+  border-left: 3px solid;
+  display: inline-block;
+  margin-left: 8%;
+  padding-left: 2%;
+  width:25%;
+}
+
+.arrow {
+  color: #007AFF;
+  display: inline-block;
+  padding-left: 7%;
+  width: 10%;
+  vertical-align: middle;
+}
+
+i {
+  color: #007AFF;
+}
+
+.fa-sort-amount-down {
+  color: gray;
+  float: right;
+}
+
+.time {
+  font-size: 1.2em;
+}
+
+.freq {
+  color: gray;
+  font-size: .8em;
+  font-weight: 300;
+}
+
+.status {
+  float: right;
+  height: 2em;
+  width: .3em;
+}
+
+.on-time {
+  border-color: #4CD964;
+  border-left: 3px solid #4CD964;
+}
+
+.slightly-late {
+  border-color: #FFCC00;
+  border-left: 3px solid #FFCC00;
+}
+
+.very-late {
+  border-color: #FF9500;
+  border-left: 3px solid #FF9500;
+}
+
+.not-coming {
+  border-left: 3px solid gray;
+}
