@@ -4,7 +4,6 @@
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 2em;
   font-size: 16px;
   margin: 0 auto;
   width:375px;
@@ -20,6 +19,7 @@ nav{
 }
 
 .back {
+  color: #007AFF;
   display: inline-block;
 }
 
@@ -42,9 +42,9 @@ nav{
 }
 
 .bus-stop {
-  height: 45px;
-  width: 35px;
-  margin: 25% 0% 0% 35%;
+  height: 80px;
+  width: 65px;
+  margin: 14% 0% 0% 32%;
 }
 
 section {
@@ -87,17 +87,18 @@ li {
 }
 
 .direction {
-  border-width: 0px 0px 1.25px 0px;
-  border-color: gray;
-  border-style:  solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #C8C7CC;
+  border-style: solid;
   clear: both;
   padding: 3%;
-  display:flex;
+  display: flex;
   align-items: center;
 }
 
 .number {
   display: inline-block;
+  opacity: .5;
   padding-left: 2%;
   width: 15%;
 }
@@ -105,13 +106,13 @@ li {
 .route {
   font-weight: 300;
   padding: 0% 2% 0% 4%;
-  width: 35%;
+  width: 45%;
 }
 
 .arrival-time {
   border-left: 3px solid;
   display: inline-block;
-  margin-left: 8%;
+  margin-left: 6%;
   padding-left: 2%;
   width:25%;
 }
@@ -119,7 +120,7 @@ li {
 .arrow {
   color: #007AFF;
   display: inline-block;
-  padding-left: 7%;
+  padding-left: 6%;
   width: 10%;
   vertical-align: middle;
 }
@@ -134,7 +135,8 @@ i {
 }
 
 .time {
-  font-size: 1.2em;
+  font-size: 1.4em;
+  font-weight: 300;
 }
 
 .freq {
